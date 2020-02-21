@@ -15,6 +15,8 @@
 		00C738BE2314A8960018657A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C738BD2314A8960018657A /* Preview Assets.xcassets */; };
 		00C738C12314A8960018657A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C738BF2314A8960018657A /* LaunchScreen.storyboard */; };
 		00C738CC2314A8960018657A /* Ride_Tracker_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C738CB2314A8960018657A /* Ride_Tracker_2Tests.swift */; };
+		00C738D82314AC220018657A /* Cedar-Point-rides.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C738D62314AC220018657A /* Cedar-Point-rides.json */; };
+		00C738D92314AC220018657A /* parks.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C738D72314AC220018657A /* parks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		00C738C72314A8960018657A /* Ride Tracker 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ride Tracker 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C738CB2314A8960018657A /* Ride_Tracker_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride_Tracker_2Tests.swift; sourceTree = "<group>"; };
 		00C738CD2314A8960018657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C738D62314AC220018657A /* Cedar-Point-rides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cedar-Point-rides.json"; sourceTree = "<group>"; };
+		00C738D72314AC220018657A /* parks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				00C738BF2314A8960018657A /* LaunchScreen.storyboard */,
 				00C738C22314A8960018657A /* Info.plist */,
 				00C738B52314A8930018657A /* Ride_Tracker_2.xcdatamodeld */,
+				00C738D62314AC220018657A /* Cedar-Point-rides.json */,
+				00C738D72314AC220018657A /* parks.json */,
 				00C738BC2314A8960018657A /* Preview Content */,
 			);
 			path = "Ride Tracker 2";
@@ -191,6 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C738D92314AC220018657A /* parks.json in Resources */,
+				00C738D82314AC220018657A /* Cedar-Point-rides.json in Resources */,
 				00C738C12314A8960018657A /* LaunchScreen.storyboard in Resources */,
 				00C738BE2314A8960018657A /* Preview Assets.xcassets in Resources */,
 				00C738BB2314A8960018657A /* Assets.xcassets in Resources */,
